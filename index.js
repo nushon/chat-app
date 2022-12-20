@@ -26,6 +26,6 @@ io.on('connection', (socket)=>{
         io.emit('chat message', msg);
     })
 })
-server.listen(3000, ()=>{
+server.listen(3100, ()=>{
     console.log("Chat app is listening on port 3000")
 })
